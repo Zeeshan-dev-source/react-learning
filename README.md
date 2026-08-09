@@ -24,7 +24,7 @@ A reusable React Profile Card component using:
 - CSS3
 - Git & GitHub
 
-### 02 - Counter App
+### ✅ 02 - Counter App
 
 A simple counter application built with React to practice state management.
 

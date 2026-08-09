@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 350px;
+  padding: 35px;
+  text-align: center;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card h1 {
+  margin-bottom: 20px;
+}
+
+.age {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.age span {
+  font-weight: bold;
+}
+
+button {
+  padding: 12px 22px;
+  border: none;
+  background-color: antiquewhite;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.info {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
