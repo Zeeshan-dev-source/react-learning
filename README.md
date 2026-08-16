@@ -50,7 +50,7 @@ A simple counter application built with React to practice state management.
 - Vite
 - Git & GitHub
 
-### ✅  Functional State Update - React
+### ✅  03 Functional State Update - React
 
 A simple React project created to understand how functional state updates work with `useState`.
 
@@ -71,12 +71,43 @@ The example uses an age counter where each button click increases the age by 15.
 - JSX
 - Re-rendering when state changes
 
+### ✅ 04 - Todo App
+
+A simple and interactive Todo List application built with React.js as part of my React learning journey.
+
+Features
+Add new todos
+Edit existing todos
+Update todo items
+Delete todos
+Controlled input field
+Dynamic todo list rendering
+Conditional Add/Update button
+Custom CSS styling
+React Hook Used
+useState
+
+This project uses the React useState hook for state management.
+
+Three state variables are used:
+
+const [text, setText] = useState("");
+const [todos, setTodos] = useState([]);
+const [editIndex, setEditIndex] = useState(null);
+text — stores the current input value.
+todos — stores the list of todo items.
+editIndex — stores the index of the todo currently being edited.
+
 ## 💡 How It Works
+
 
 The project uses:
 
 ```jsx
+
 const [age, setAge] = useState(0);
+
+
 
 ## Author
 
