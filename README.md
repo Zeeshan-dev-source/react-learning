@@ -103,12 +103,29 @@ editIndex — stores the index of the todo currently being edited.
 
 The project uses:
 
-```jsx
+### ✅ Todo Listed Count Items 
 
-const [age, setAge] = useState(0);
+A simple React practice project built to understand useState, state management, event handling, list rendering, editing, deleting, and maintaining a dynamic item count.
 
+Features
+Add new items
+Edit existing items
+Update items
+Delete items
+Dynamic item counter
+Controlled input field
+Dynamic list rendering
+Conditional Add/Update button
+Custom CSS styling
+⚛️ React Hook Used
+useState
 
+This project uses React's useState hook to manage multiple pieces of application state.
 
+const [count, setCount] = useState(0);
+const [text, setText] = useState("");
+const [todos, setTodos] = useState([]);
+const [editIndex, setEditIndex] = useState(null);
 ## Author
 
 **Zeeshan Ahmad Frontend Developer**
