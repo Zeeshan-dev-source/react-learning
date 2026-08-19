@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./ColorChanger.css";
 
 function ColorChanger() {
-    const colors = ['red', 'blue', 'orange', 'green', 'purple', 'pink', 'teal', 'yellow', 'brown', 'gray', 'black', 'darkblue', 'skyblue', 'Lightgreen']
+    const colors = ['red', 'blue', 'orange', 'green', 'purple', 'pink', 'teal', 'yellow', 'brown', 'gray', 'black', 'darkblue', 'skyblue', 'lightgreen']
     const [color, setColor] = useState("navy");
 
   function changeColor() {
