@@ -75,57 +75,85 @@ The example uses an age counter where each button click increases the age by 15.
 
 A simple and interactive Todo List application built with React.js as part of my React learning journey.
 
-Features
-Add new todos
-Edit existing todos
-Update todo items
-Delete todos
-Controlled input field
-Dynamic todo list rendering
-Conditional Add/Update button
-Custom CSS styling
-React Hook Used
-useState
+- Features
+- Add new todos
+- Edit existing todos
+- Update todo items
+- Delete todos
+- Controlled input field
+- Dynamic todo list rendering
+- Conditional Add/Update button
+- Custom CSS styling
+- React Hook Used
+- useState
 
 This project uses the React useState hook for state management.
 
 Three state variables are used:
 
-const [text, setText] = useState("");
-const [todos, setTodos] = useState([]);
-const [editIndex, setEditIndex] = useState(null);
-text — stores the current input value.
-todos — stores the list of todo items.
-editIndex — stores the index of the todo currently being edited.
-
-## 💡 How It Works
+- const [text, setText] = useState("");
+- const [todos, setTodos] = useState([]);
+- const [editIndex, setEditIndex] = useState(null);
+- text — stores the current input value.
+- todos — stores the list of todo items.
+- editIndex — stores the index of the todo currently being edited.
 
 
-The project uses:
-
-### ✅ Todo Listed Count Items 
+### ✅ 05 Todo Listed Count Items 
 
 A simple React practice project built to understand useState, state management, event handling, list rendering, editing, deleting, and maintaining a dynamic item count.
 
-Features
-Add new items
-Edit existing items
-Update items
-Delete items
-Dynamic item counter
-Controlled input field
-Dynamic list rendering
-Conditional Add/Update button
-Custom CSS styling
-⚛️ React Hook Used
-useState
+* Features
+* Add new items
+* Edit existing items
+* Update items
+* Delete items
+* Dynamic item counter
+* Controlled input field
+* Dynamic list rendering
+* Conditional Add/Update button
+* Custom CSS styling
+* ⚛️ React Hook Used
+* useState
 
 This project uses React's useState hook to manage multiple pieces of application state.
 
-const [count, setCount] = useState(0);
-const [text, setText] = useState("");
-const [todos, setTodos] = useState([]);
-const [editIndex, setEditIndex] = useState(null);
+- const [count, setCount] = useState(0);
+- const [text, setText] = useState("");
+- const [todos, setTodos] = useState([]);
+- const [editIndex, setEditIndex] = useState(null);
+
+
+### ✅ 06 - Color Changer
+
+A simple React project that changes the background color randomly when the button is clicked.
+
+### Features
+
+* Random background color generation
+* Displays the current color
+* Interactive button
+* Dynamic background styling
+
+### React Concepts Used
+
+* `useState`
+* Event handling with `onClick`
+* Dynamic inline CSS
+* JavaScript `Math.random()`
+* Array indexing
+
+### Technologies
+
+* React.js
+* JavaScript
+* CSS3
+* Vite
+
+### Learning Purpose
+
+This project was created to practice **React state management, event handling, random values, and dynamic styling** using the `useState` hook.
+
 ## Author
 
 **Zeeshan Ahmad Frontend Developer**
