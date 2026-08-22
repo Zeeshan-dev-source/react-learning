@@ -154,6 +154,38 @@ A simple React project that changes the background color randomly when the butto
 
 This project was created to practice **React state management, event handling, random values, and dynamic styling** using the `useState` hook.
 
+
+### ✅ 07 - Character Counter
+
+A simple React project that counts the number of characters typed into a textarea in real time.
+
+### Features
+
+- Real-time character counting
+- Controlled textarea input
+- Clear text button
+- Dynamic UI updates
+
+### React Concepts Used
+
+- `useState`
+- `onChange` event handling
+- Controlled components
+- `e.target.value`
+- `.length` property
+- Dynamic rendering
+
+### Technologies
+
+- React.js
+- JavaScript
+- CSS3
+- Vite
+
+### Learning Purpose
+
+This project was created to practice **React state management, controlled inputs, event handling, and dynamic UI updates**.
+
 ## Author
 
 **Zeeshan Ahmad Frontend Developer**
